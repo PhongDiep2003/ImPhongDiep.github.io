@@ -1,0 +1,125 @@
+.contact_form {
+  --input-focus: #2d8cf0;
+  --font-color: #323232;
+  --font-color-sub: #666;
+  --bg-color: #fff;
+  --main-color: #323232;
+  padding: 20px;
+  background: lightgrey;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  width: 500px;
+  height: 80%;
+  margin-left: 200px;
+}
+
+.contact_form_title {
+  color: black;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.form_input {
+  width: 70%;
+  height: 7%;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--font-color);
+  padding: 5px 10px;
+  outline: none;
+}
+
+.contact_form_textField {
+  height: 19rem;
+}
+
+.form_input::placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+
+.form_input:focus {
+  border: 2px solid var(--input-focus);
+}
+
+
+.icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--main-color);
+}
+
+.button_confirm:active {
+  box-shadow: 0px 0px var(--main-color);
+  transform: translate(3px, 3px);
+}
+
+.button_confirm {
+  margin: 50px auto 0 auto;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--font-color);
+  cursor: pointer;
+}
+
+@media (min-width: 992px) and (max-width: 1280px) {
+  .contact_form {
+    width: 600px;
+    height: 10%;
+    margin-left: 0;
+    margin-top: 60px;
+  }
+  .contact_form_title {
+    font-size: 1.8rem;
+  }
+  .form_input {
+    width: 70%;
+    height: 50px;
+  }
+  .contact_form_textField {
+    height: 17rem;
+  }
+  .button_confirm {
+    width: 160px;
+    height: 50px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 992px) {
+  .contact_form {
+    width: 500px;
+    height: 10%;
+    margin-left: 0;
+    margin-top: 60px;
+  }
+  .contact_form_title {
+    font-size: 1.8rem;
+  }
+  .form_input {
+    width: 70%;
+    height: 50px;
+  }
+  .contact_form_textField {
+    height: 17rem;
+  }
+  .button_confirm {
+    width: 160px;
+    height: 50px;
+  }
+}
