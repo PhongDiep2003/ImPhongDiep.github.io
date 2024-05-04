@@ -11,7 +11,7 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": ">=16"
+    "node": "16.x"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
