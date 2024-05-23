@@ -3,7 +3,7 @@ import { Box, Text,  Card, CardHeader, CardBody, Heading, Stack, StackDivider, L
 import { MdCheckCircle} from 'react-icons/md'
 const ExperienceCard = ({companyName,title, time, description, techused}) => {
   return (
-      <Card w={{lg: '63vw', xl: '50vw'}} opacity={0.9} _hover={{'transform': 'scale(0.99)', 'border': '2px solid #38ACFF'}} transition={'0.2s ease-in-out'} mt={5} zIndex={0} bg={'white'}>
+      <Card w={{lg: '63vw', xl: '50vw', 'base': '100vw'}} opacity={0.9} _hover={{'transform': 'scale(0.99)', 'border': '2px solid #38ACFF'}} transition={'0.2s ease-in-out'} mt={5} zIndex={0} bg={'white'}>
           <CardHeader textAlign={'center'}>
             <Heading size={{lg: 'lg', xl: 'md'}} color={'black'}>{companyName}</Heading>
           </CardHeader>

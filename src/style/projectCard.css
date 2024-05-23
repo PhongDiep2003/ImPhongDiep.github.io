@@ -60,3 +60,11 @@
     height: 500px;
   }
 }
+
+@media (min-width: 0px) and (max-width: 992px) {
+  .flip_card {
+    margin-bottom: 20px;
+
+  }
+}
+

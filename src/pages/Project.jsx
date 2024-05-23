@@ -5,7 +5,7 @@ import { colorTemplate } from '../style/app_styles'
 const Project = () => {
   return (
     <Box 
-          h={{lg: '75vh',xl:'80vh', base:'200vh'}}
+          h={{lg: '75vh',xl:'80vh', base:'280vh'}}
           bg={colorTemplate.primary}>
           <Center>
               <Flex direction={'column'}>

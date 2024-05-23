@@ -23,7 +23,7 @@ const App = () => {
   }
   
   return (
-  <Box pos={'relative'}>
+  <Box pos={'relative'} style={{'backgroundColor': 'red', 'overflow':'hidden'}}>
     <Center>
       <Box pos={'fixed'} bottom={0} w={'300px'} bg={colorTemplate.navigation_tab} borderRadius={50} height={'7vh'} mb={20} opacity={0.8} overflow={'hidden'} zIndex={2000}>
         <Flex height={'100%'} alignItems={'center'} p={5} justifyContent={'space-evenly'}>

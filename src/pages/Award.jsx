@@ -24,7 +24,7 @@ const Award = () => {
     }
   ]
   return (
-    <Box  h={{lg: '65vh',xl:'50vh', base:'50vh'}} bg={colorTemplate.primary}>
+    <Box  h={{lg: '65vh',xl:'50vh', base:'66vh'}} bg={colorTemplate.primary}>
       <Center>
         <Flex direction={'column'}>
             <Text 

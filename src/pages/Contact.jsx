@@ -1,6 +1,5 @@
-import { Center, Box, IconButton , Flex, Text, Grid, GridItem } from '@chakra-ui/react'
+import { Center, Box,Flex, Text } from '@chakra-ui/react'
 import React from 'react'
-import { FaInstagram } from "react-icons/fa";
 import { colorTemplate } from '../style/app_styles';
 import Hamster from '../components/Hamster';
 import ContactForm from '../components/ContactForm';
@@ -27,7 +26,7 @@ const Contact = () => {
 
         
         <Flex
-              width={'100%'} height={'100%'} justifyContent={'center'} alignItems={'center'} flexDirection={{'lg': 'column', 'xl': 'row', base:'column'}}  p={10}>
+              width={'100%'} height={'90%'} justifyContent={'center'} alignItems={'center'} flexDirection={{'lg': 'column', 'xl': 'row', base:'column'}}  p={{base:0, lg:10, xl: 10}} >
                 <Hamster/>
                 <ContactForm/>
 

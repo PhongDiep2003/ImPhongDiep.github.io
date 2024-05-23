@@ -5,7 +5,7 @@ import ThreeDCube from '../components/ThreeDCube'
 const Skills = () => {
   return (
     <Box 
-          h={{lg: '60vh',xl:'70vh', base:'65vh'}}
+          h={{lg: '60vh',xl:'70vh', base:'80vh'}}
           bg={colorTemplate.primary}
           >
       <Center 
@@ -22,7 +22,8 @@ const Skills = () => {
             w={'100%'} 
             h={'100%'}
             alignItems={'center'}
-            justifyContent={'center'}>
+            justifyContent={'center'}
+            paddingBottom={20}>
         <ThreeDCube/>
       </Flex>
     </Box>

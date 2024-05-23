@@ -5,7 +5,7 @@ import { colorTemplate } from '../style/app_styles'
 const Education = () => {
   return (
     <Box 
-          h={{lg: '100vh',xl:'140vh', base: '160vh'}}
+          h={{lg: '100vh',xl:'140vh', base: '170vh'}}
           bg={colorTemplate.primary}>
       <Center 
               flexDirection={'column'}>

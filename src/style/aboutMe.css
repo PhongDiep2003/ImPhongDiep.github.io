@@ -70,8 +70,8 @@
 }
  @media (min-width: 0px) and (max-width: 992px){
   .about_me_card {
-    width: 57vw;
-    height:55vh;
+    width: 87vw;
+    height:70vh;
   }
   .title {
   font-size: 1.5rem;

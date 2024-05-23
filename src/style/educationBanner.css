@@ -122,14 +122,15 @@
   .project_type {
     font-size: 1.1rem;
   }
+  
 }
 
 @media (min-width: 0px) and (max-width: 992px) {
   .article_wrapper {
-    width: 80vw;
+    width: 90vw;
     height: 70vh;
   }
   .project_type {
-    font-size: 1.1rem;
+    font-size: 0.8rem;
   }
 }

@@ -21,7 +21,7 @@ const workExperiences = [
 ]
 const Experience = () => {
   return (
-    <Box h={{lg: '140vh',xl:'110vh', base:'130vh'}} bg={colorTemplate.primary}>
+    <Box h={{lg: '140vh',xl:'110vh', base:'190vh'}} bg={colorTemplate.primary}>
        <Center>
         <Flex 
               direction={'column'}>

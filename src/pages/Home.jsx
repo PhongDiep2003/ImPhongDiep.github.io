@@ -10,7 +10,7 @@ import { colorTemplate } from '../style/app_styles'
 import '../style/home.css'
 const Home = () => {
   return (
-  <Box h={{lg: '70vh',xl:'100vh', base:'100vh'}} bg={colorTemplate.primary} pt={18} pos={'relative'}>
+  <Box h={{lg: '70vh',xl:'100vh', base:'110vh'}} bg={colorTemplate.primary} pt={18} pos={'relative'}>
                 <Flex direction={'column'} alignItems={'center'}>
                     <Text 
                           fontSize={{xl:'5rem', lg:'3rem', base: '2.5rem'}} 

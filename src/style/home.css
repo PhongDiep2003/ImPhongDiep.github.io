@@ -169,7 +169,7 @@
 
 @media (min-width: 0) and (max-width: 992px) {
   .card {
-    width: 70vw;
+    width: 90vw;
     height: 70vh;
   }
   .card_avatar {

@@ -5,7 +5,7 @@ import '../style/aboutMe.css'
 const AboutMe = () => {
   return (
     <Box 
-        h={{lg: '75vh',xl:'100vh', base:'135vh'}}
+        h={{lg: '75vh',xl:'100vh', base:'175vh'}}
         bg={colorTemplate.primary}>
         <Center>
           <Flex 
@@ -41,13 +41,13 @@ const AboutMe = () => {
                       <Box 
                             bg={colorTemplate.primary} 
                             height={{lg: 500, xl: 700, base: 450}} 
-                            width={{lg: 350, xl: 600, base: 350}} 
+                            width={{lg: 350, xl: 600, base: 320}} 
                             borderRadius={50} 
                             boxShadow='dark-lg'/>
                       <Image 
                             src='/quote.jpeg' 
                             height={{lg: 500, xl: 700, base: 450}} 
-                            width={{lg: 350, xl: 600, base: 350}} 
+                            width={{lg: 350, xl: 600, base: 320}} 
                             objectFit={'contain'} 
                             position={'absolute'} 
                             borderRadius={50} 
